@@ -30,8 +30,8 @@ export default function App() {
                         </p>
 
                         <div className="row gap">
-                            <a className="btn ghost" href="/cv.pdf" target="_blank">CV (updated September 2024)</a>
-                            <a className="btn ghost" href="https://clist.by/coder/hung1911/" target="_blank">clist.by (my OJ profiles)</a>
+                            <a className="btn ghost" href="/resume.pdf" target="_blank">Resume (updated December 2025)</a>
+                            {/* <a className="btn ghost" href="https://clist.by/coder/hung1911/" target="_blank">clist.by (my OJ profiles)</a> */}
                         </div>
                     </div>
                 </Section>
