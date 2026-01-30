@@ -5,8 +5,9 @@ export default function Navbar() {
         <a className="brand" href="#home">Hung</a>
 
         <nav className="navLinks">
-          <a href="#projects">Projects</a>
           <a href="#about">About</a>
+          <a href="#experience">Work</a>
+          <a href="#projects">Projects</a>
           <a href="#contact" className="pill">Contact</a>
         </nav>
       </div>

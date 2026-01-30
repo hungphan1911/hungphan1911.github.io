@@ -10,9 +10,11 @@ type Props = {
 export default function Section({ id, eyebrow, title, children }: Props) {
   return (
     <section id={id} className="section">
-      {eyebrow ? <div className="eyebrow">{eyebrow}</div> : null}
-      <h2 className="h2">{title}</h2>
-      <div className="sectionBody">{children}</div>
+      <div className="container">
+        {eyebrow ? <div className="eyebrow">{eyebrow}</div> : null}
+        <h2 className="h2">{title}</h2>
+        <div className="sectionBody">{children}</div>
+      </div>
     </section>
   );
 }
